@@ -6,11 +6,6 @@
       }
       /*général*/
       
-      .no-gutter {
-          padding: 0%;
-          margin: 0%;
-      }
-      
       .bg-warning {
           background-color: #FDD835;
       }
@@ -99,10 +94,6 @@
           border-radius: 50%;
           display: flex;
           justify-content: space-evenly;
-      }
-      
-      .a-propos {
-          margin-bottom: 100px;
       }
       /* bande de gauche formation*/
       
