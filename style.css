@@ -89,11 +89,9 @@
       
       .icon-loisir {
           color: #616161;
-          padding: 10px;
+          padding: 8px;
           border: solid #616161;
           border-radius: 50%;
-          display: flex;
-          justify-content: space-evenly;
       }
       /* bande de gauche formation*/
       
@@ -111,4 +109,17 @@
       
       .reco {
           padding-left: 70px;
+      }
+      /* media q pour téléphone */
+      
+      @media all and (max-device-width: 360px) {
+          .presentation {
+              padding-top: 20px;
+          }
+          .developpeuse {
+              padding-bottom: 10px;
+          }
+          .titre-pro {
+              font-size: 1.5rem;
+          }
       }
