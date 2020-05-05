@@ -1,125 +1,146 @@
-      /*police*/
-      
-      @font-face {
-          font-family: "alice";
-          src: url(alice/Alice-Regular.ttf);
-      }
-      /*général*/
-      
-      .bg-warning {
-          background-color: #FDD835;
-      }
-      
-      .text-warning {
-          color: #FDD835;
-      }
-      
-      .fa-bullseye {
-          font-size: x-large;
-          color: #FDD835;
-      }
-      
-      .fa-circle {
-          font-size: medium;
-          color: #FDD835;
-          padding-right: 15px;
-      }
-      
-      .interlign {
-          line-height: 1.5;
-      }
-      
-      p {
-          margin-bottom: 1.25%;
-      }
-      
-      .fa-university {
-          color: #FDD835;
-      }
-      
-      .fa-desktop {
-          color: #FDD835;
-      }
-      
-      .fa-thumbs-up {
-          color: #FDD835;
-      }
-      
-      .offset-md-1 {
-          margin-left: 65px;
-      }
-      /*entete*/
-      
-      .presentation {
-          font-size: 40px;
-          padding-left: 50px;
-          padding-right: 50px;
-      }
-      
-      .photo {
-          padding: 4% 4% 3% 4%;
-      }
-      
-      .photodeprofil {
-          width: 50%;
-      }
-      
-      .harmony {
-          font-style: normal;
-      }
-      
-      .developpeuse {
-          font-size: 25px;
-          padding-left: 50px;
-          padding-right: 50px;
-      }
-      
-      .souligne {
-          font-style: normal;
-          border-bottom: solid #FDD835 3px;
-      }
-      /*bande jaune avec les informations personnelles*/
-      
-      .titre-perso {
-          color: #FDD835;
-          background-color: #616161;
-          font-size: 30px;
-          text-align: center;
-      }
-      
-      .icon-loisir {
-          color: #616161;
-          padding: 8px;
-          border: solid #616161;
-          border-radius: 50%;
-      }
-      /* bande de gauche formation*/
-      
-      .titre-pro {
-          border-bottom: solid #FDD835 5px;
-          font-family: "alice";
-          font-size: 1.75rem;
-      }
-      
-      .ecole {
-          font-family: "alice";
-          font-size: 1.5rem;
-      }
-      /*recommandation*/
-      
-      .reco {
-          padding-left: 70px;
-      }
-      /* media q pour téléphone */
-      
-      @media all and (max-device-width: 360px) {
-          .presentation {
-              padding-top: 20px;
-          }
-          .developpeuse {
-              padding-bottom: 10px;
-          }
-          .titre-pro {
-              font-size: 1.5rem;
-          }
-      }
+/*police*/
+
+@font-face {
+    font-family: "alice";
+    src: url(alice/Alice-Regular.ttf);
+}
+
+
+/*général*/
+
+.bg-warning {
+    background-color: #FDD835;
+}
+
+.text-warning {
+    color: #FDD835;
+}
+
+.fa-bullseye {
+    font-size: x-large;
+    color: #FDD835;
+}
+
+.fa-circle {
+    font-size: medium;
+    color: #FDD835;
+}
+
+.interlign {
+    line-height: 1.5;
+}
+
+p {
+    margin-bottom: 1.25%;
+}
+
+.fa-university {
+    color: #FDD835;
+}
+
+.fa-desktop {
+    color: #FDD835;
+}
+
+.fa-thumbs-up {
+    color: #FDD835;
+}
+
+.offset-md-1 {
+    margin-left: 65px;
+}
+
+
+/*entete*/
+
+.presentation {
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.photo {
+    padding: 4% 4% 3% 4%;
+}
+
+.photodeprofil {
+    width: 50%;
+}
+
+.harmony {
+    font-style: normal;
+}
+
+.developpeuse {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.souligne {
+    font-style: normal;
+    border-bottom: solid #FDD835 3px;
+}
+
+
+/*bande jaune avec les informations personnelles*/
+
+.bande {
+    padding: 48px;
+}
+
+.titre-perso {
+    color: #FDD835;
+    background-color: #616161;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-loisir {
+    color: #616161;
+    padding: 8px;
+    border: solid #616161;
+    border-radius: 50%;
+}
+
+
+/* bande de gauche formation*/
+
+.titre-pro {
+    border-bottom: solid #FDD835 5px;
+    font-family: "alice";
+    font-size: 1.75rem;
+}
+
+.ecole {
+    font-family: "alice";
+    font-size: 1.5rem;
+}
+
+
+/*recommandation*/
+
+.reco {
+    padding-left: 70px;
+}
+
+
+/* media q pour téléphone */
+
+@media all and (max-width: 800px) {
+    .presentation {
+        padding-top: 20px;
+    }
+    .developpeuse {
+        padding-bottom: 10px;
+    }
+    .titre-pro {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width:800px) {
+    .bande {
+        padding: 15px;
+    }
+}
